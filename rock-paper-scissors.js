@@ -67,7 +67,7 @@ function playGame(playerMove) {
   } else if (result === 'Tie.') {
     score.ties += 1;
   }
-
+c
   //set score
   localStorage.setItem('score', JSON.stringify(score));
 
